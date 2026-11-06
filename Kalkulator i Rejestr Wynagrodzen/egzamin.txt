@@ -1,0 +1,20 @@
+==================================================
+DOKUMENTACJA PROJEKTU - KALKULATOR I REJESTR WYNAGRODZEŃ
+Kwalifikacja INF.04 | Egzamin Zawodowy CKE
+==================================================
+
+1. SPECYFIKACJA ŚRODOWISKA PROGRAMISTYCZNEGO:
+- System operacyjny: Windows 10 / 11 Pro 64-bit
+- Środowisko programistyczne: Microsoft Visual Studio 2022 Community
+- Technologia: .NET 6.0 / .NET 8.0 (WPF - Windows Presentation Foundation)
+- Język programowania: C#
+
+2. OPIS DZIAŁANIA APLIKACJI:
+- Aplikacja służy do obliczania składek ZUS, składki zdrowotnej, podatku PIT oraz wynagrodzenia netto.
+- Użytkownik wprowadza kwotę brutto, wybiera rodzaj umowy oraz zaznacza lub odznacza ulgę dla młodych.
+- Po kliknięciu przycisku "OBLICZ I ZAPISZ" dane są walidowane. W przypadku poprawności danych system wykonuje obliczenia, aktualizuje etykiety wyników i dodaje wpis do tabeli historycznej (Rejestr Wynagrodzeń).
+
+3. LISTA ZRZUTÓW EKRANU (umieszczonych w folderze dokumentacja):
+- screen_glowny.png - Widok uruchomionej domyślnej aplikacji.
+- screen_wynik.png - Widok po wyliczeniu i dodaniu wpisu do rejestru.
+- screen_testy.png - Widok pomyślnie zaliczonego testu jednostkowego weryfikującego ulgę PIT.
